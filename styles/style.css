@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #23272e;
+  color: rgb(235, 231, 227);
+  text-transform: uppercase;
+}
+
+#root{
+  display: flex;
+  margin: 100px auto;
+  width: 300px;
+  text-align: center;
+
+}
+
+button{
+  margin: 5px 5px;
+  border-radius: 3px;
+  border: 2px solid rgb(31, 44, 117);
+  background-color: rgb(84, 112, 163);
+  width: 110px;
+  height: 40px;
+  color: rgb(223, 241, 241);
+  font-size:13px;
+  
+}
+button:hover{
+  background-color: rgb(192, 221, 247);
+  color: rgb(53, 53, 92);
+  box-shadow: 0 0 10px rgb(90, 90, 90);
+  border: transparent;
+}
+
+/*Estilos personalizados segun el valor*/
+
+/*Para pares*/
+.par{
+  color:rgb(51, 124, 153);
+}
+/*Para Impares*/
+.impar{
+  color: yellow;
+}
+h5 {
+  font-size: 20px;
+  margin: 0;
+  color: darkcyan;
+  text-shadow: 0 0 10px ;
+}
